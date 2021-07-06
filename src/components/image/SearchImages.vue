@@ -29,7 +29,7 @@
 
 <script>
 import {mapActions, mapGetters} from "vuex";
-//import router from "src/routes";
+
 export default {
   name: "SearchImages",
   data() {
