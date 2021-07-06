@@ -35,7 +35,7 @@ export default {
   data() {
     return {
       search: this.$route.query.query,
-      page: 1
+      page: this.$route.query.page ? this.$route.query.page : 1
     }
   },
   computed: {
