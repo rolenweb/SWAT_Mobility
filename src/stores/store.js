@@ -3,6 +3,7 @@ import Vue from 'vue';
 import Vuex from 'vuex';
 import ax from 'axios'
 import image from "./modules/image";
+import pokemon from "./modules/pokemon";
 
 const axiosPlugin = store => {
     store.$axios = ax
@@ -12,7 +13,7 @@ Vue.use(Vuex);
 
 export default new Vuex.Store({
     modules: {
-        image
+        image, pokemon
     },
     state: {
         error: null
